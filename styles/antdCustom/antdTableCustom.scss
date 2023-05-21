@@ -1,0 +1,48 @@
+@import '../variables.scss';
+
+.ant-table-wrapper {
+  width: 100%;
+
+  & * {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .ant-table-content {
+    width: 100%;
+
+    table {
+      width: 100%;
+    }
+
+    .ant-table-thead {
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 500;
+
+      tr th.ant-table-cell {
+        background-color: transparent;
+        padding: 10px;
+        border-bottom: solid 1px $gray-500;
+
+        &::before {
+          opacity: 0;
+        }
+
+        &:last-child {
+          padding-right: 32px;
+        }
+      }
+    }
+
+    .ant-table-tbody {
+      tr td.ant-table-cell {
+        border-bottom: solid 1px $gray-800;
+        padding: 15px 10px;
+
+        &:last-child {
+          padding-right: 32px;
+        }
+      }
+    }
+  }
+}

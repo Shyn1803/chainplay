@@ -1,0 +1,24 @@
+.ant-form {
+
+  & * {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .ant-form-item {
+    .ant-form-item-label {
+      overflow: visible;
+
+      label {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          left: -8px;
+        }
+      }
+    }
+  }
+}

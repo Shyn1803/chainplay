@@ -1,0 +1,7 @@
+.ant-btn.ant-btn-primary {
+  background-color: #1677ff !important;
+
+  &:disabled {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+  }
+}
